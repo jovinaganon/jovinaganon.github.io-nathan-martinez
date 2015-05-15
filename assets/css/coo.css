@@ -1,0 +1,367 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    opacity: 0.85;
+    top: 0;
+}
+
+nav {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.link {
+    color: white;
+    font-size: 1.6vw;
+    font-family: century gothic, helvetica, sans-serif;
+    list-style-type: none;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.link a img {
+    width: 5vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    padding-top: 115px;
+}
+
+.pix {
+    width: 25%;
+    float: left;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+.soc {
+    text-align: center;
+}
+
+.pix img {
+    width: 100%;
+}
+
+.pixx {
+    width: 25%;
+    float: left;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.pixx img {
+    width: 95%;
+}
+
+#bio {
+    width: 50%;
+    color: white;
+    float: left;
+    font-size: 1.25em;
+    font-family: century gothic, helvetica, sans-serif;
+    padding-top: 250px;
+    padding-left: 10px;
+}
+
+#bio-bg {
+    float: right;
+    padding-top: 100px;
+    padding-right: 40px;
+}
+
+#small-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15%;
+}
+
+.label {
+    color: white;
+    font-size: 1.5em;
+    font-family: century gothic, helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item {
+    color: white;
+    font-size: 1.25em;
+    font-family: century gothic, helvetica, sans-serif;
+    text-align: center;
+}
+
+.item a {
+    color:white;
+}
+
+.items {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: century gothic, helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+/* iPhone 5 scaling */
+
+
+
+@media only screen and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+    width: 100%;
+    background-color: #1e1e1e;
+}
+.header {
+    width: 100%;
+    background-color: black;
+}
+nav {
+    width: 100%;
+    margin: 0 auto;
+}
+.link {
+    color: white;
+    font-size: 1.5em;
+    font-family: century gothic, helvetica, sans-serif;
+    list-style-type: none;
+}
+.link a img {
+    width: 100px;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+.container {
+    width: 100%;
+}
+.gallery {
+    width: 100%;
+    padding-top: 250px;
+}
+.pix {
+    width: 65%;
+    list-style-type: none;
+}
+.soc {
+    text-align: center;
+}
+.pix img {
+    width: 100%;
+}
+.pixx {
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    padding-top: 5px;
+}
+.pixx img {
+    width: 95%;
+}
+#bio {
+    width: 50%;
+    color: white;
+    font-size: 1.25em;
+    font-family: century gothic, helvetica, sans-serif;
+    padding-top: 200px;
+}
+#bio-bg {
+    background-image: url(../img/..);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#small-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60%;
+}
+.label {
+    color: white;
+    font-size: 1.5em;
+    font-family: century gothic, helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.item {
+    color: white;
+    font-size: 1.25em;
+    font-family: century gothic, helvetica, sans-serif;
+    text-align: center;
+}
+.item a {
+    color: white;
+}
+.items {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+footer {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: century gothic, helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+}
+
+
+
+/* iPhone 6 scaling */
+
+
+
+@media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+}
+.header {
+    width: 100%;
+    background-color: black;
+}
+nav {
+    width: 100%;
+    margin: 0 auto;
+}
+.link {
+    color: white;
+    font-size: 1.5em;
+    font-family: century gothic, helvetica, sans-serif;
+    list-style-type: none;
+}
+.link a img {
+    width: 100px;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+.container {
+    width: 100%;
+}
+.gallery {
+    width: 100%;
+    padding-top: 250px;
+}
+.pix {
+    width: 100%;
+    padding-left: 5px;
+    list-style-type: none;
+}
+.soc {
+    text-align: center;
+}
+.pix img {
+    width: 100%;
+}
+.pixx {
+    width: 100%;
+    list-style-type: none;
+    padding-top: 5px;
+}
+.pixx img {
+    width: 95%;
+}
+#bio {
+    width: 50%;
+    color: white;
+    font-size: 1.25em;
+    font-family: century gothic, helvetica, sans-serif;
+    padding-top: 200px;
+}
+#bio-bg {
+    background-image: url(../img/..);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#small-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60%;
+}
+.label {
+    color: white;
+    font-size: 1.5em;
+    font-family: century gothic, helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.item {
+    color: white;
+    font-size: 1.25em;
+    font-family: century gothic, helvetica, sans-serif;
+    text-align: center;
+}
+.item a {
+    color: white;
+}
+.items {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+footer {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: century gothic, helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+}
